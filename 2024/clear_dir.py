@@ -2,7 +2,7 @@ import os
 import re
 import shutil
 
-cpp_pattern = re.compile("[qc]((?:c)?\d+)\.cpp")
+cpp_pattern = re.compile(r"[qc]((?:c)?\d+)\.cpp")
 
 c = 0
 for f in os.listdir():
